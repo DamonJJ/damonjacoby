@@ -1,5 +1,5 @@
 body {
-  background-image: url('../images/BG_Repeatable.jpg');
+  background-image: url('../images/BGRepeatable.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -182,11 +182,6 @@ p.custom_font{
   height: 13%;
   padding: 2px;
   height: 5%;
-  /*background-image: url(../images/twitter.png);*/
-}
-
-.social_links_twitter:hover {
-  /*background-image: url(.//images/twitter_hover.png);*/
 }
 
 #followMe-nav {
@@ -265,5 +260,6 @@ p.custom_font{
 }
 
 .fa-3x:hover {
+  transition: color 0.5s ease;
   color: #8d8488;
 }
