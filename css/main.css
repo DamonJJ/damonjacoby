@@ -253,3 +253,17 @@ p.custom_font{
   border-top: 1px solid #63605D;
   border-bottom: 1px solid #63605D;
 }
+
+.FBSVG {
+  width: 3em;
+}
+
+.fa-3x {
+  font-size: 2em;
+  padding: .15em .1em .15em .1em;
+  color: #5b5d5d;
+}
+
+.fa-3x:hover {
+  color: #8d8488;
+}
