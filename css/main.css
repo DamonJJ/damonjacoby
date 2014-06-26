@@ -329,5 +329,12 @@ input {
 
 }
 
+.email_link {
+  text-decoration: none;
+  color: #dadae3;
+}
 
-
+.email_link:hover {
+  text-decoration: none;
+  color: #a69eb0;
+}
