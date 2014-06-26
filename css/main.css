@@ -19,6 +19,10 @@ p.custom_font{
   font-family: drawing_guides; /* no .ttf */
 }
 
+a {
+  display: inline;
+  height: 300px;
+}
 #bb {
   width: 100%;
   /* height: 494px; */
@@ -130,11 +134,12 @@ p.custom_font{
   margin-left: 21%;
 }
 
-.nav_links{
+.nav_links {
   width: 32%;
   margin: 0 auto;
   margin-top: -5%;
-  padding-left: 4%;
+  padding-left: 35%;
+  position: absolute;
 }
 
 .nav_link {
