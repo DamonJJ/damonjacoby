@@ -23,20 +23,39 @@
         </div>
     </nav>
       <div id="social">
-        <a href="conact.html"><i class="fa fa-envelope fa-3x"></i></a>
+        <a href="contact.html"><i class="fa fa-envelope fa-3x"></i></a>
         <a href="https://www.linkedin.com/pub/damon-jacoby/22/7b3/486" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
         <a href="https://github.com/damonjj" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
         <a href="https:///www.facebook.com/purveyorofcode" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></i></a>
         <a href="https://twitter.com/damonjj" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
 
       </div>
-      <div class="blog-container">
-        <article class="blog_article_container">
-          <h1 id="header-blog">Welcome. We are purveyor's of code!</h1>
-          <p class="p_blog_padding">We are a Web and Mobile Development Company that looks to provide you with hand coded, personalized products that fit you and your wants.</p>
-          <p>Webites and Apps, all crafted for your needs. Wether you're looking for a web storefront, personal blog, or need your idea</p>
-        </article>
+
+      <div class="wrapper">  
+      <div id="contact_form">
+      <form name="form1" id="ff" method="post" action="insert.php">
+      <h1>Email a Purveyor of Code</h1>
+      <p>Say "Hello!" Oh, and let me know about how I can help you.</p>  
+          <label>
+          <span>Name*:</span>
+          <input type="text" placeholder="Please enter your name" name="name" id="name" required autofocus>
+          </label>
+
+          <label>
+          <span>Phone:</span>
+          <input type="tel" placeholder="Please enter your phone" name="phone" id="phone">
+          </label>
+           
+          <label>
+          <span>Email*:</span>
+          <input type="email" placeholder="youremail@gmail.com" name="email" id="email" required>
+          </label>
+         
+          <input class="sendButton" type="submit" name="Submit" value="Send">
+               
+      </form>
       </div>
-  </div>
+     </div>
+    </div>
 </body>
 </html>
