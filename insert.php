@@ -1,12 +1,11 @@
 // Get values from the form
 $name=$_POST['name'];
-$city=$_POST['city'];
 $phone=$_POST['phone'];
 $email=$_POST['email'];
  
 $to = "damonjacoby@gmail.com";
 $subject = "Future Tutorials Contact Form Test";
-$message = " Name: " . $name . "\r\n City: " . $city . "\r\n Phone: " . $phone . "\r\n Email: " . $email;
+$message = " Name: " . $name . "\r\n Phone: " . $phone . "\r\n Email: " . $email;
  
  
 $from = "FutureTutorials";
