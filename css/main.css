@@ -382,7 +382,7 @@ input {
 
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width: 781px) and (max-width : 1040px) {
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
 
   .fa-3x {
     font-size: 1.6em;
@@ -407,7 +407,7 @@ input {
 
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (min-width: 768px) and (max-width: 980px){
   #social {
     width: 24%;
     margin-left: 72%;
@@ -434,7 +434,7 @@ input {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
     .fa-3x {
     font-size: 1.5em;
   }
