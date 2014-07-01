@@ -217,7 +217,8 @@ a {
 #chalk-nav {
   /*width: 35%;
   margin: 0 auto;
-*/}
+*/
+}
 
 .blog-container {
   margin-left: 20%;
@@ -258,7 +259,7 @@ a {
 }
 
 .fa-3x {
-  font-size: 2em;
+  font-size: 1.8em;
   padding: .15em .1em .15em .1em;
   color: #5b5d5d;
 }
@@ -338,3 +339,154 @@ input {
   text-decoration: none;
   color: #a69eb0;
 }
+.work_container {
+  transition: color 0.5s ease;
+  -webkit-transition: color .5s ease;
+     -moz-transition: color .5s ease;
+      -ms-transition: color .5s ease;
+       -o-transition: color .5s ease;
+          transition: color .5s ease;
+  float: left;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.work_container:hover {
+  color: blue;
+}
+
+.work_container2 {
+  transition: color 0.5s ease;
+  -webkit-transition: color .5s ease;
+     -moz-transition: color .5s ease;
+      -ms-transition: color .5s ease;
+       -o-transition: color .5s ease;
+          transition: color .5s ease;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+}
+
+.fa-graduation-cap {
+  font-size: 12em;
+}
+
+
+.wdi {
+   font-size: 3em;
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 781px) and (max-width : 1040px) {
+
+  .fa-3x {
+    font-size: 1.6em;
+/*    padding: .15em .1em .15em .1em;
+    color: #5b5d5d;*/
+  }
+
+  #social {
+    width: 20%;
+    margin-left: 74%;
+    margin-top: -0.5%;
+  }
+
+  .blog_article_container {
+    width: 90%;
+  }
+
+  .bb_nav {
+    width: 100%;
+    height: 8em;
+  }
+
+}
+
+@media only screen and (max-width: 780px) {
+  #social {
+    width: 24%;
+    margin-left: 72%;
+    margin-top: -0.5%;
+  }
+  .fa-3x {
+    font-size: 1.4em;
+  }
+
+  .bb_nav {
+    width: 100%;
+    height: 8em;
+  }
+
+  #dnav {
+    position: absolute;
+    width: 80%;
+    margin-top: -18%;
+    margin-left: 10%;
+  }
+
+  .blog_article_container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .fa-3x {
+    font-size: 1.5em;
+  }
+
+  #social {
+    width: 31%;
+    margin: 0 auto;
+    margin-top: -0.7%;
+  }
+
+  #dnav {
+    position: absolute;
+    width: 80%;
+    margin-top: -26%;
+    margin-left: 10%;
+  }
+
+  .nav_links {
+    width: 55%;
+    margin: 0 auto;
+    margin-top: -11%;
+    padding-left: 26%;
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  
+  .bb_nav {
+    width: 100%;
+    height: 7em;
+  }
+
+  #social {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -1.1%;
+  }
+  
+  .blog_article_container {
+    width: 100%;
+    margin-top: 16%;
+  }
+  
+  #header-blog {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 3%;
+    line-height: 1.3;
+  }
+
+  .blog {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
+
