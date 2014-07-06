@@ -60,13 +60,13 @@ a {
   padding-top: 5%;
   width: 80%;
   margin: 0 auto;
-  margin-right: 8.1%;
+  margin-right: -4.9%;
 
 }
 
 .box {
   width: 20%;
-  margin-left: 8.5%;}
+}
 
 #followMe {
   padding-top: 4%;
@@ -427,7 +427,6 @@ input {
   .box {
     width: 135px;
     padding: 0 10px 0 10px;
-    margin-left: 0; 
   }
 
   .smBox {
@@ -471,6 +470,7 @@ input {
   .header-blog {
     font-size: 25px;
   }
+
 @media(max-width: 767px) {
   #wrapper {
     width: 100%;
@@ -486,21 +486,55 @@ input {
     box-sizing: border-box;
   }
 
+  .bb_nav {
+    height: 7em;
+  }
+
   #dnav {
-    width: 440px;
+    width: 325px;
     margin: 0 auto;
-    margin-top: -135px;
+    margin-top: -110px;
+  }
+
+  .nav_links {
+    width: 275px;
+    margin: 0 auto;
+    margin-top: -10px;
+  }
+
+  .nav_link {
+    width: 89px;
+  }
+
+  #boxes {
+    width: 332px;
+  }
+
+  .box {
+    width: 88px;
+  }
+
+  .smBox {
+    width: 321px;
+
+  }
+
+  .sm {
+    margin: 0;
+    margin-left: 0;
+    width: 35px;
+    padding: 20px 13px 20px 13px;
   }
 
   #social {
     width: 200px;
     margin: 0 auto;
-    margin-top: 21px;
+    margin-top: 15px;
   }
 
   .fa-3x {
-  font-size: 30px;
-  padding: .15em .1em .15em .1em;
-  color: #5b5d5d;
+    font-size: 30px;
+    padding: .15em .1em .15em .1em;
+    color: #5b5d5d;
   }
 }
